@@ -59,6 +59,7 @@ header{
 /* main */
 main{
     height: 86vh;
+    overflow-y: auto;
 }
 
 .schermo{
