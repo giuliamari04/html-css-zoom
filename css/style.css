@@ -7,29 +7,69 @@
 
 :root{
     --color-sfondo: #000000;
+    --color-sfondo-tasti:#4a4a4a;
     --color-footer: #222222;
     --color-icon:#fffffc;
     --color-share:#4bc800;
     --color-end:#e12339;
+    --colore-sfondo-nomi:rgba(74, 74, 74,0.5);
+
 }
 
 body{
     background-color: var(--color-sfondo) ;
     color: var(--color-icon);
     height: 100hv;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
     min-width: 1200px;
     padding:2% 5%;
 }
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+}
 /* header */
 header{
-    height: 3vh;
+    height: 4vh;  
+    justify-content: end;
+    padding: 2px;
+}
+
+.div-header{
+    background-color: var(--color-sfondo-tasti);
+    font-size: 0.7em;
+    font-weight: 100;
+    border-radius: 2px;
+    padding:5px;
+    margin-left:5px;
+  
 }
 /* main */
 main{
-    height: 87vh;
+    height: 86vh;
+}
+
+.schermo{
+    position: relative;
+    width: calc(100% / 7 - 4px);
+    background-image: url(https://picsum.photos/300/200);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    margin: 2px;
+    
+}
+
+.nome-persona{
+    background-color: var(--colore-sfondo-nomi);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
 }
 /* footer */
 footer{
