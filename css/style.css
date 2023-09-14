@@ -21,6 +21,7 @@ body{
     color: var(--color-icon);
     height: 100hv;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 1200px;
 }
 
 .container{
@@ -45,6 +46,7 @@ header{
     height: 4vh;  
     justify-content: end;
     padding: 2px;
+    margin: 0 auto;
 }
 
 .div-header{
@@ -58,7 +60,7 @@ header{
 }
 /* main */
 main{
-    height: 86vh;
+    height: 84vh;
     overflow-y: auto;
 }
 
@@ -78,21 +80,35 @@ main{
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 5px;
+    padding: 2px;
     font-size: 0.8em;
 }
 /* footer */
 footer{
     background-color: var(--color-footer);
-    height:10vh;
+    height:12vh;
     justify-content: space-between;
     font-size: 0.8em;
+   
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
 }
 .end{
     color:var(--color-end);
     background-color: var(--color-sfondo-tasti);
     font-weight: 300;
     padding: 20px;    
+}
+
+.share{
+    color: var(--color-share);
 }
 ul{
     list-style: none;
