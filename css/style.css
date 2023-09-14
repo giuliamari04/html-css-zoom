@@ -1,0 +1,42 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-sfondo: #000000;
+    --color-footer: #222222;
+    --color-icon:#fffffc;
+    --color-share:#4bc800;
+    --color-end:#e12339;
+}
+
+body{
+    background-color: var(--color-sfondo) ;
+    color: var(--color-icon);
+    height: 100hv;
+}
+
+.container{
+    min-width: 1200px;
+    padding:2% 5%;
+}
+/* header */
+header{
+    height: 3vh;
+}
+/* main */
+main{
+    height: 87vh;
+}
+/* footer */
+footer{
+    background-color: var(--color-footer);
+    height:10vh;
+}
+
+.debug{
+    border:2px solid #e12339;
+}
