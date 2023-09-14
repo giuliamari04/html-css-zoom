@@ -86,7 +86,7 @@ main{
 /* footer */
 footer{
     background-color: var(--color-footer);
-    height:12vh;
+    height:auto;
     justify-content: space-between;
     font-size: 0.8em;
    
@@ -119,6 +119,6 @@ li{
     padding: 5px 0;
 }
 
-.debug{
+/* .debug{
     border:2px solid #e12339;
-}
+} */
